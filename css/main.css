@@ -87,9 +87,6 @@ footer {
 */
 
 /* Write your CSS here */
-body {
-  width: 1400px;
-}
 
 .wrapper > p:first-child::first-letter {
   font-size: 5rem;
@@ -107,6 +104,10 @@ figure {
   border-bottom: 3px solid #333;
   padding: 6px 0;
   margin: 0 8px;
+}
+
+figcaption {
+  font-style: italic;
 }
 
 blockquote {
